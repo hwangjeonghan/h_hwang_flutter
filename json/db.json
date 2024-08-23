@@ -1,0 +1,32 @@
+{
+  "coffees": [
+    {
+      "id": "1",
+      "name": "아메리카노",
+      "description": "마시고 싶다 ...",
+      "imageUrl": "https://ugc.production.linktr.ee/7ecf5a03-810e-4a6e-954b-96192f37fcba_-----------.png?io=true&size=avatar-v3_0",
+      "isFavorite": true
+    },
+    {
+      "id": "2",
+      "name": "카페라떼",
+      "description": "는 별로야",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9yTtPoFEtyaGDm4BqKkD6XBeD_ySN39fazQ&s",
+      "isFavorite": true
+    },
+    {
+      "id": 1724648120512,
+      "name": "ㅎㅇ",
+      "description": "ㅎㅇ",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9yTtPoFEtyaGDm4BqKkD6XBeD_ySN39fazQ&s",
+      "isFavorite": false
+    },
+    {
+      "id": 1724648926864,
+      "name": "ㅁㄴㅇㅁㄴㅇ",
+      "description": "ㄴㅁㅇㄴㅁㅇ",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9yTtPoFEtyaGDm4BqKkD6XBeD_ySN39fazQ&s",
+      "isFavorite": true
+    }
+  ]
+}
