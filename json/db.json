@@ -1,31 +1,73 @@
 {
   "coffees": [
     {
-      "id": "1",
-      "name": "아메리카노",
-      "description": "마시고 싶다 ...",
-      "imageUrl": "https://ugc.production.linktr.ee/7ecf5a03-810e-4a6e-954b-96192f37fcba_-----------.png?io=true&size=avatar-v3_0",
+      "id": "32",
+      "name": "칠리모짜통다리",
+      "description": "",
+      "imageUrl": "https://img1.daumcdn.net/thumb/R1280x0.fjpg/?fname=http://t1.daumcdn.net/brunch/service/user/cnoC/image/wnKZh_CLG12bUN-ldFSOdQexLVU",
       "isFavorite": true
     },
     {
-      "id": "2",
-      "name": "카페라떼",
-      "description": "는 별로야",
-      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9yTtPoFEtyaGDm4BqKkD6XBeD_ySN39fazQ&s",
+      "id": "33",
+      "name": "칠리징거통다리",
+      "description": "",
+      "imageUrl": "https://img.wowtv.co.kr/wowtv_news/dnrs/20221208/B20221208110234740.jpg",
       "isFavorite": true
     },
     {
-      "id": 1724648120512,
-      "name": "ㅎㅇ",
-      "description": "ㅎㅇ",
-      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9yTtPoFEtyaGDm4BqKkD6XBeD_ySN39fazQ&s",
-      "isFavorite": false
+      "id": "34",
+      "name": "블랙라벨폴인치즈",
+      "description": "",
+      "imageUrl": "https://previews.123rf.com/images/hachemmaadalla/hachemmaadalla2307/hachemmaadalla230702102/211095471-%ED%96%84%EB%B2%84%EA%B1%B0%EC%9D%98-%ED%96%84%EB%B2%84%EA%B1%B0-%ED%8C%A8%EC%8A%A4%ED%8A%B8-%ED%91%B8%EB%93%9C-%EB%B2%A1%ED%84%B0-%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8-%EB%A0%88%EC%9D%B4-%EC%85%98.jpg",
+      "isFavorite": true
     },
     {
-      "id": 1724648926864,
-      "name": "ㅁㄴㅇㅁㄴㅇ",
-      "description": "ㄴㅁㅇㄴㅁㅇ",
-      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9yTtPoFEtyaGDm4BqKkD6XBeD_ySN39fazQ&s",
+      "id": "35",
+      "name": "징거더블다운",
+      "description": "",
+      "imageUrl": "/KFC_Menu/burger/bg_04.png",
+      "isFavorite": true
+    },
+    {
+      "id": "36",
+      "name": "켄터키통다리스파이시",
+      "description": "",
+      "imageUrl": "/KFC_Menu/burger/bg_05.png",
+      "isFavorite": true
+    },
+    {
+      "id": "37",
+      "name": "징거BLT",
+      "description": "",
+      "imageUrl": "/KFC_Menu/burger/bg_06.png",
+      "isFavorite": true
+    },
+    {
+      "id": "38",
+      "name": "징거타워",
+      "description": "",
+      "imageUrl": "/KFC_Menu/burger/bg_07.png",
+      "isFavorite": true
+    },
+    {
+      "id": "39",
+      "name": "클래식징거통다리",
+      "description": "",
+      "imageUrl": "/KFC_Menu/burger/bg_08.png",
+      "isFavorite": true
+    },
+    {
+      "id": "40",
+      "name": "징거",
+      "description": "",
+      "imageUrl": "/KFC_Menu/burger/bg_09.png",
+      "isFavorite": true
+    },
+    {
+      "id": "41",
+      "name": "불고기",
+      "description": "",
+      "imageUrl": "/KFC_Menu/burger/bg_10.png",
       "isFavorite": true
     }
   ]

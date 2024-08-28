@@ -1,0 +1,14 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "npm install -g json-server\r json-server --watch db.json --port 3000\r <!-- add 했을때 안되는건 그냥 넘겨도된데 -->",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "json-server --watch db.json --port 9000"
+  },
+  "author": "",
+  "dependencies": {
+    "json-server": "^1.0.0-beta.2"
+  }
+}

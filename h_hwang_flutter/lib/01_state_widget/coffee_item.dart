@@ -45,13 +45,14 @@ class CoffeeItem extends StatelessWidget {
             const SizedBox(width: 8),
 
             // 2. 이미지
-            Expanded(
-              flex: 2,
+            Container(
+              constraints: BoxConstraints(
+                maxWidth: 100,
+                maxHeight: 100,
+              ),
               child: Image.network(
                 "${coffee.imageUrl}?${DateTime.now().millisecondsSinceEpoch}",
                 fit: BoxFit.cover,
-                height: 100,
-                width: 100,
                 loadingBuilder: (context, child, progress) {
                   if (progress == null) {
                     return child;

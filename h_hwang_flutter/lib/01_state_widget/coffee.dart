@@ -41,7 +41,7 @@ class Coffee {
   // 서버에서 커피 목록을 가져오는 비동기 메서드
   static Future<List<Coffee>> fetchCoffees() async {
     final response = await http.get(
-      Uri.parse('http://localhost:3000/coffees'),
+      Uri.parse('http://localhost:9000/coffees'),
       headers: {'Accept': 'application/json; charset=utf-8'},  // UTF-8 헤더 추가
     );
 
@@ -56,7 +56,7 @@ class Coffee {
   // 서버에 새로운 커피를 추가하는 메서드
   static Future<void> addCoffee(Coffee coffee) async {
     final response = await http.post(
-      Uri.parse('http://localhost:3000/coffees'),
+      Uri.parse('http://localhost:9000/coffees'),
       headers: {
         'Content-Type': 'application/json; charset=utf-8',  // UTF-8 헤더 추가
       },
@@ -71,7 +71,7 @@ class Coffee {
   // 서버에서 커피를 삭제하는 메서드
   static Future<void> deleteCoffee(int id) async {
     final response = await http.delete(
-      Uri.parse('http://localhost:3000/coffees/$id'),
+      Uri.parse('http://localhost:9000/coffees/$id'),
     );
     if (response.statusCode != 200 && response.statusCode != 204) {
       final responseBody = utf8.decode(response.bodyBytes);
@@ -82,7 +82,7 @@ class Coffee {
   // 서버에서 커피를 업데이트하는 메서드
   static Future<void> updateCoffee(Coffee coffee) async {
     final response = await http.put(
-      Uri.parse('http://localhost:3000/coffees/${coffee.id}'),
+      Uri.parse('http://localhost:9000/coffees/${coffee.id}'),
       headers: {
         'Content-Type': 'application/json; charset=utf-8',  // UTF-8 헤더 추가
       },
